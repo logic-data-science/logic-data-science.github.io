@@ -110,7 +110,7 @@
 		    $('#footer').load('footer.html');
 
 		    if($.urlParam("page") != "start.html") {
-			$('#header').load('small_header.html');
+			$('#header').css('max-height', '150px');
 			$('#main').addClass('container');
 			$('#main').load($.urlParam("page")) ;
 		    }
