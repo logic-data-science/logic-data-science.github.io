@@ -71,12 +71,12 @@ body { color: black; font-family: 'Open Sans'; }
 html, body { height: 100%; }
 
 a {
-	color:#660099;
+	color:#E96840;
 	text-decoration: none;
 }
 
 a:focus,a:hover{
-	color:#25FDE9;
+	color:black;
 	text-decoration: none;
 	cursor: move;
 }
