@@ -112,6 +112,16 @@ footer { background-color: #1E1E1E; width:100%; display:block; color:#f7f7f7; }
 
 #about {padding: 0px 0px 0px 0px;/*background-image:url("../images/background.jpg");background-repeat:repeat;*/}
 .orangeback{ background-color: #E96840 }
+.orangeback a {
+	color:white;
+	text-decoration: none;
+}
+.orangeback a:focus, .orangeback a:hover{
+	color:black;
+	text-decoration: none;
+	cursor: move;
+}
+
 #about p{
 	color:black;
 	line-height: 1.2em;
