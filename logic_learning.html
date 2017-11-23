@@ -10,7 +10,7 @@ The workshop will be held on January 11th and 12th.
 </p>
 
 <p>
-The programme has four axes, starting from a theoretical standpoint and going to a more practical one: logic and automata, verification, programming languages, and neural networks.
+The programme has four axes, starting from a theoretical standpoint and going to a more practical one: automata, verification, probabilistic programming languages, and neural networks.
 </p>
 
 <p>
@@ -97,7 +97,7 @@ systems or automated verification.
 
 <div class="panel panel-default">
 
-<h3><b>11:00–12:30</b> Logic and automata II</h3>
+<h3><b>11:00–12:30</b> Verification and automata</h3>
 
 <div class="panel-heading">
         <h4><b>11:00 - 11:45</b> Borja Balle (Amazon Research Cambridge) <i>Learning Automata with Hankel Matrices</i></h4>
@@ -123,25 +123,25 @@ systems or automated verification.
 </div>
 
 <div class="panel-heading">
-        <h4><b>11:45 - 12:30</b> Edward Grefenstette (DeepMind) <i>Recurrent Neural Networks and Models of Computation</i></h4>
-        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#grefenstette" data-parent="#accordion">((more))</button>
+        <h4><b>11:45 - 12:30</b> Jan K&#345;et&iacute;nsk&yacute; (Technical University of Munich) <i>Fast learning of small strategies</i></h4>
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#kretinsky" data-parent="#accordion">((more))</button>
 </div>
 
-<div id="grefenstette" class="panel-collapse collapse">
+<div id="kretinsky" class="panel-collapse collapse">
     <div class="panel-body">
 
         <dl class="dl-horizontal">
         <dt>Speaker:</dd>
-        <dd>Edward Grefenstette, Staff Research Scientist, DeepMind</dd>
+        <dd><a href="https://www7.in.tum.de/~kretinsk/">Jan K&#345;et&iacute;nsk&yacute;</a>, Technical University of Munich</dd>
 
         <dt>Title:</dt>
-        <dd>Recurrent Neural Networks and Models of Computation</dd>
+        <dd>Fast learning of small strategies</dd>
 
         <dt>Abstract:</dt>
         <dd>
-        This talk presents an analysis of various recurrent neural network architectures in terms of traditional models of computation. 
-	It makes the case for simpler recurrent architectures being closer to finite state automata, and argues that memory-enhanced architectures support better algorithmic efficiency, 
-	even in problems which are describable as regular languages.
+        In verification, precise analysis is required, but the algorithms usually suffer from scalability issues. In machine learning, scalability is achieved, but with only very weak guarantees. 
+	We show how to merge the two philosophies and profit from both. In this talk, we focus on analysing Markov decision processes. 
+	We show how to learn ε-optimal strategies fast and how to represent them concisely so that some understanding of the behaviour and debugging information can be extracted. 
         </dd>
         </dl>
     </div>
@@ -236,28 +236,26 @@ systems or automated verification.
 
 <div class="panel panel-default">
 
-<h3><b>16:00–16:45</b> Verification I</h3>
+<h3><b>16:00–16:45</b> Verification and automata II</h3>
 
 <div class="panel-heading">
-        <h4><b>16:00 - 16:45</b> Jane Hillston (University of Edinburgh) <i>Integrating Inference with Stochastic Process Algebra Models</i></h4>
-        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#hillston" data-parent="#accordion">((more))</button>
+        <h4><b>14:45 - 15:30</b> Alessandro Abate (University of Oxford) <i>Safe reinforcement learning</i></h4>
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#abate" data-parent="#accordion">((more))</button>
 </div>
 
-<div id="hillston" class="panel-collapse collapse">
+<div id="abate" class="panel-collapse collapse">
     <div class="panel-body">
 
         <dl class="dl-horizontal">
         <dt>Speaker:</dd>
-        <dd><a href="http://homepages.inf.ed.ac.uk/jeh/">Jane Hillston</a>, School of Informatics, University of Edinburgh</dd>
+        <dd><a href="https://www.cs.ox.ac.uk/people/alessandro.abate/home.html">Alessandro Abate</a>, University of Oxford</dd>
 
         <dt>Title:</dt>
-        <dd>Integrating Inference with Stochastic Process Algebra Models</dd>
+        <dd>Safe reinforcement learning</dd>
 
         <dt>Abstract:</dt>
         <dd>
-        ProPPA is a probabilistic programming language for continuous-time dynamical systems, developed as an extension of the stochastic process algebra Bio-PEPA. It offers a high-level syntax for describing systems of interacting components with stochastic behaviours where some of the parameters are unknown. Such systems occur in many and diverse fields, including biology, ecology and urban transport, and while their modelling and analysis are important, existing methodologies are often not accessible to non-experts, in addition to being tailor-made rather than generally applicable. In particular, parameter learning can be of crucial significance but is a difficult problem due to the complexity of the underlying probabilistic model --- namely, the continuous time setting and the fast-growing number of states.
-<br/>
-The purpose of the ProPPA framework is to facilitate both the description of these systems and the process of inference, by automating the application of appropriate algorithms. The language is equipped with different parameter inference methods, including a novel MCMC scheme which employs a random truncation strategy to obtain unbiased likelihood estimates. This method is particularly suited to systems with infinite state-spaces, which were previously not manageable without imposing an ad-hoc truncation. Other methods include a naive Approximate Bayesian Computation algorithm and a sampler based on a continuous approximation of the state-space.
+        TBA
         </dd>
         </dl>
     </div>
@@ -292,28 +290,28 @@ The purpose of the ProPPA framework is to facilitate both the description of the
 
 <div class="panel panel-default">
 
-<h3><b>9:00–10:30</b> Verification II</h3>
+<h3><b>9:00–10:30</b> Probabilistic programming I</h3>
 
 <div class="panel-heading">
-        <h4><b>9:00 - 9:45</b> Jan K&#345;et&iacute;nsk&yacute; (Technical University of Munich) <i>Fast learning of small strategies</i></h4>
-        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#kretinsky" data-parent="#accordion">((more))</button>
+        <h4><b>9:00 - 9:45</b> Jane Hillston (University of Edinburgh) <i>Integrating Inference with Stochastic Process Algebra Models</i></h4>
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#hillston" data-parent="#accordion">((more))</button>
 </div>
 
-<div id="kretinsky" class="panel-collapse collapse">
+<div id="hillston" class="panel-collapse collapse">
     <div class="panel-body">
 
         <dl class="dl-horizontal">
         <dt>Speaker:</dd>
-        <dd><a href="https://www7.in.tum.de/~kretinsk/">Jan K&#345;et&iacute;nsk&yacute;</a>, Technical University of Munich</dd>
+        <dd><a href="http://homepages.inf.ed.ac.uk/jeh/">Jane Hillston</a>, School of Informatics, University of Edinburgh</dd>
 
         <dt>Title:</dt>
-        <dd>Fast learning of small strategies</dd>
+        <dd>Integrating Inference with Stochastic Process Algebra Models</dd>
 
         <dt>Abstract:</dt>
         <dd>
-        In verification, precise analysis is required, but the algorithms usually suffer from scalability issues. In machine learning, scalability is achieved, but with only very weak guarantees. 
-	We show how to merge the two philosophies and profit from both. In this talk, we focus on analysing Markov decision processes. 
-	We show how to learn ε-optimal strategies fast and how to represent them concisely so that some understanding of the behaviour and debugging information can be extracted. 
+        ProPPA is a probabilistic programming language for continuous-time dynamical systems, developed as an extension of the stochastic process algebra Bio-PEPA. It offers a high-level syntax for describing systems of interacting components with stochastic behaviours where some of the parameters are unknown. Such systems occur in many and diverse fields, including biology, ecology and urban transport, and while their modelling and analysis are important, existing methodologies are often not accessible to non-experts, in addition to being tailor-made rather than generally applicable. In particular, parameter learning can be of crucial significance but is a difficult problem due to the complexity of the underlying probabilistic model --- namely, the continuous time setting and the fast-growing number of states.
+<br/>
+The purpose of the ProPPA framework is to facilitate both the description of these systems and the process of inference, by automating the application of appropriate algorithms. The language is equipped with different parameter inference methods, including a novel MCMC scheme which employs a random truncation strategy to obtain unbiased likelihood estimates. This method is particularly suited to systems with infinite state-spaces, which were previously not manageable without imposing an ad-hoc truncation. Other methods include a naive Approximate Bayesian Computation algorithm and a sampler based on a continuous approximation of the state-space.
         </dd>
         </dl>
     </div>
@@ -357,7 +355,7 @@ program analysis techniques.
 
 <div class="panel panel-default">
 
-<h3><b>11:00–12:30</b> Probabilistic programming</h3>
+<h3><b>11:00–12:30</b> Probabilistic programming II</h3>
 
 <div class="panel-heading">
         <h4><b>11:00 - 11:45</b> Joost-Pieter Katoen (RWTH Aachen University) <i>Bayesian Inference by Program Verification</i></h4>
@@ -450,46 +448,48 @@ whether sampling-based methods are appropriate for a given BN.
 <h3><b>14:00–15:30</b> Neural networks</h3>
 
 <div class="panel-heading">
-        <h4><b>14:00 - 14:45</b> TBA <i>TBA</i></h4>
-        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#tba3" data-parent="#accordion">((more))</button>
+        <h4><b>14:00 - 14:45</b> Edward Grefenstette (DeepMind) <i>Recurrent Neural Networks and Models of Computation</i></h4>
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#grefenstette" data-parent="#accordion">((more))</button>
 </div>
 
-<div id="tba3" class="panel-collapse collapse">
+<div id="grefenstette" class="panel-collapse collapse">
     <div class="panel-body">
 
         <dl class="dl-horizontal">
         <dt>Speaker:</dd>
-        <dd><a href="">TBA</a>, TBA</dd>
+        <dd>Edward Grefenstette, Staff Research Scientist, DeepMind</dd>
 
         <dt>Title:</dt>
-        <dd>TBA</dd>
+        <dd>Recurrent Neural Networks and Models of Computation</dd>
 
         <dt>Abstract:</dt>
         <dd>
-        TBA
+        This talk presents an analysis of various recurrent neural network architectures in terms of traditional models of computation. 
+	It makes the case for simpler recurrent architectures being closer to finite state automata, and argues that memory-enhanced architectures support better algorithmic efficiency, 
+	even in problems which are describable as regular languages.
         </dd>
         </dl>
     </div>
 </div>
 
 <div class="panel-heading">
-        <h4><b>14:45 - 15:30</b> TBA <i>TBA</i></h4>
-        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#tba4" data-parent="#accordion">((more))</button>
+        <h4><b>14:45 - 15:30</b> Tim Rockt&auml;schel (University of Oxford) <i>End-to-End Differentiable Proving</i></h4>
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#rockt" data-parent="#accordion">((more))</button>
 </div>
 
-<div id="tba4" class="panel-collapse collapse">
+<div id="rockt" class="panel-collapse collapse">
     <div class="panel-body">
 
         <dl class="dl-horizontal">
         <dt>Speaker:</dd>
-        <dd><a href="">TBA</a>, TBA</dd>
+        <dd><a href="https://rockt.github.io/">Rockt&auml;schel</a>, University of Oxford</dd>
 
         <dt>Title:</dt>
-        <dd>TBA</dd>
+        <dd>End-to-End Differentiable Proving</dd>
 
         <dt>Abstract:</dt>
         <dd>
-        TBA
+We introduce neural networks for end-to-end differentiable proving of queries to knowledge bases by operating on dense vector representations of symbols. These neural networks are constructed recursively by taking inspiration from the backward chaining algorithm as used in Prolog. Specifically, we replace symbolic unification with a differentiable computation on vector representations of symbols using a radial basis function kernel, thereby combining symbolic reasoning with learning subsymbolic vector representations. By using gradient descent, the resulting neural network can be trained to infer facts from a given incomplete knowledge base. It learns to (i) place representations of similar symbols in close proximity in a vector space, (ii) make use of such similarities to prove queries, (iii) induce logical rules, and (iv) use provided and induced logical rules for multi-hop reasoning. We demonstrate that this architecture outperforms ComplEx, a state-of-the-art neural link prediction model, on three out of four benchmark knowledge bases while at the same time inducing interpretable function-free first-order logic rules.
         </dd>
         </dl>
     </div>
