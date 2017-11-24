@@ -118,7 +118,6 @@ footer { background-color: #1E1E1E; width:100%; display:block; color:#f7f7f7; }
 .orangeback a:focus, .orangeback a:hover{
 	color:black;
 	text-decoration: none;
-	cursor: move;
 }
 
 #about p{
