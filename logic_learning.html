@@ -435,7 +435,7 @@ whether sampling-based methods are appropriate for a given BN.
 			</div>
 
 			<div class="panel-heading">
-        			<h4><b>11:45 - 12:30</b> Sam Staton (Oxford) <i>Denotational validation of higher-order Bayesian inference</i></h4>
+        			<h4><b>11:45 - 12:30</b> Sam Staton (Oxford) <i>Semantic models for higher-order Bayesian inference</i></h4>
         			<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#staton" data-parent="#accordion">((more))</button>
 			</div>
 
@@ -447,11 +447,14 @@ whether sampling-based methods are appropriate for a given BN.
 			        <dd><a href="http://www.cs.ox.ac.uk/people/samuel.staton/main.html">Sam Staton</a>, University of Oxford</dd>
 
 			        <dt>Title:</dt>
-			        <dd>Denotational validation of higher-order Bayesian inference</dd>
+			        <dd>﻿Semantic models for higher-order Bayesian inference</dd>
 
 			        <dt>Abstract:</dt>
 			        <dd>
-We present a modular semantic account of Bayesian inference algorithms for probabilistic programming languages, as used in data science and machine learning. Sophisticated inference algorithms are often explained in terms of composition of smaller parts. However, neither their theoretical justification nor their implementation reflects this modularity. We show how to conceptualise and analyse such inference algorithms as manipulating intermediate representations of probabilistic programs using higher-order functions and inductive types, and their denotational semantics. Semantic accounts of continuous distributions use measurable spaces. However, our use of higher-order functions presents a substantial technical difficulty: it is impossible to define a measurable space structure over the collection of measurable functions between arbitrary measurable spaces that is compatible with standard operations on those functions, such as function application. We overcome this difficulty using quasi-Borel spaces, a recently proposed mathematical structure that supports both function spaces and continuous distributions. We define a class of semantic structures for representing probabilistic programs, and semantic validity criteria for transformations of these representations in terms of distribution preservation. We develop a collection of building blocks for composing representations. We use these building blocks to validate common inference algorithms such as Sequential Monte Carlo and Markov Chain Monte Carlo. To emphasize the connection between the semantic manipulation and its traditional measure theoretic origins, we use Kock's synthetic measure theory. We demonstrate its usefulness by proving a quasi-Borel counterpart to the Metropolis-Hastings-Green theorem.
+
+In this talk I will discuss probabilistic programming as a method of Bayesian modelling and inference, with a focus on fully featured probabilistic programming languages with higher order functions, soft constraints, and continuous distributions. These languages are pushing the limits of expressivity even for "non-parametric" models. I will describe a new foundation, "quasi-Borel spaces", for higher order measure theory, and I'll present a new modular inference library whose correctness is derived from this foundation.
+<br/><br/>
+This is based on papers at ESOP 2017, LICS 2017 and POPL 2018, joint work with Y Cai, Z Ghahramani, C Heunen, O Kammar, SK Moss, K Ostermann, A Ścibior, M Vákár, H. Yang.
 				</dd>
 				</dl>
 
