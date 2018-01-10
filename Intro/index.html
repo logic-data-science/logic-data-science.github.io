@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Introduction</title>
+    
+    <meta name="description" content="Intro" />
+    <meta name="author" content="Nathana&euml;l Fijalkow" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div id="flides">
+
+    <div id="title" class="step" data-duration="0" data-x="0" data-y="-500">
+	<h2>Logic and Learning</h2>
+	<br/>
+	<h3>Andrew Blake <br/><red>Nathana&euml;l Fijalkow</red> <br/>David Pym</h3>
+    </div>
+
+    <div id="first" class="step" data-x="-500" data-y="0">
+	<h3>Very general learning setting</h3>
+	<br/>
+	<img id="learning" src="img/learning.svg"/>	
+    </div>
+
+    <div id="questions" class="step" data-x="500" data-y="0">
+	<h3>Important questions</h3>
+	<br/>
+	<ul>
+		<li>How well? <blue>accuracy, quality of the model</blue>
+		<li>How fast? <blue>convergence rate</blue>
+		<li>How reliable? <blue>guarantees</blue>
+		<li>How useful? <blue>not overfitting, human-readable, explanatory</blue>
+		<li>How fair? <blue>not discriminatory</blue>
+	</ul>
+    </div>
+
+    <div id="repr" class="step" data-x="-500" data-y="600">
+	<h3>Logic for representation and reasoning</h3>
+	<br/>
+	<ul>
+		<li>A declarative framework for <green>representing</green> and <green>inference</green>
+		<br/>[Grohe, Inductive Programming Logic offsprings: De Raedt, Evans, Rockt&auml;schel]
+
+		<br/>
+		<red>Philosophy</red>: logical formulas to represent knowledge, training data, and models
+
+		<li>Combining <green>model-based</green> and <green>data-based</green> analyses
+		<br/>[Balle, K&#345;et&iacute;nsk&yacute;, Abate]
+
+		<br/>
+		<red>Philosophy</red>: simple logical models (<i>e.g.</i> automata)
+	</ul>
+    </div>
+
+    <div id="theory" class="step" data-x="500" data-y="600">
+	<h3>Logic for theoretical foundations</h3>
+	<br/>
+	<ul>
+		<li>Defining <orange>semantics</orange>, automatising analysis, verification, and synthesis
+		<br/>[Nori, Probabilistic Programming: Hillston, Katoen, Staton]
+
+		<br/>
+		<red>Philosophy</red>: model-based approaches (as in formal methods) for reasoning on learning algorithms
+
+		<li>Understanding <orange>expressive power</orange>
+		<br/>[Grefenstette]
+
+		<br/>
+		<red>Philosophy</red>: anything differentiable is learnable. Comparisons to classical models of computation?
+	</ul>
+    </div>
+
+    <div id="overview" class="step" data-x="0" data-y="100" data-scale="2.5">
+
+</div>
+
+<script src="js/flides.js"></script>
+<script>flides().init();</script>
+
+</body>
+</html>
