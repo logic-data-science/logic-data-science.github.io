@@ -154,8 +154,12 @@ orange {
 	Slides specific part
 */
 
-#first img {
-    width: 100%;
+#theory {
+    font-size: 25px;
+}
+
+#theory img {
+    width: 30%;
 }
 
 #overview { 
