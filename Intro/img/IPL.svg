@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="806.86812"
+     inkscape:cx="428.06092"
      inkscape:cy="324.27313"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -323,7 +323,7 @@
            style="fill:#ff0000;fill-opacity:1;stroke:#9e5353;stroke-width:0;stroke-opacity:1" /></g>    </g>
     <g
        id="g7733"
-       transform="matrix(0.64244115,0,0,0.64244115,-91.268637,-381.82918)">
+       transform="matrix(0.64244115,0,0,0.64244115,-97.268637,-381.82918)">
       <path
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          inkscape:connector-curvature="0"
@@ -1194,7 +1194,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g6831-3-5"
-       transform="matrix(-1,0,0,1,374.13538,341.25115)">
+       transform="matrix(-1,0,0,1,376.13538,341.25115)">
       <g
          id="g6833-6-3"
          transform="matrix(1,0,0,-1,-175,925.01676)"
@@ -1214,7 +1214,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g6831-3-5-6"
-       transform="matrix(-1,0,0,1,374.13538,397.31462)">
+       transform="matrix(-1,0,0,1,376.13538,397.31462)">
       <g
          id="g6833-6-3-2"
          transform="matrix(1,0,0,-1,-175,925.01676)"
@@ -1234,7 +1234,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g6831-3-5-1"
-       transform="matrix(-1,0,0,1,374.13538,453.88316)">
+       transform="matrix(-1,0,0,1,376.13538,453.88316)">
       <g
          id="g6833-6-3-27"
          transform="matrix(1,0,0,-1,-175,925.01676)"
