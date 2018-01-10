@@ -158,6 +158,10 @@ orange {
     font-size: 25px;
 }
 
+#PP img {
+    width: 80%;
+}
+
 #theory img {
     width: 30%;
 }
